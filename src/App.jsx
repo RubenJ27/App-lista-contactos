@@ -13,7 +13,7 @@ export const App = () => {
     const response = await fetch("https://randomuser.me/api/?results=10");
     const data = await response.json();
     setUsers(data.results);
-    console.log(data.results);
+    /* console.log(data.results); */
   };
 
   return (
